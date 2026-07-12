@@ -51,7 +51,7 @@ IEAMC/
 - [x] Repo 스켈레톤
 - [x] Volume 1 목차 확정
 - [x] Vol.1 Ch.1 EPS 초고
-- [ ] Vol.1 Ch.2 Forward EPS
+- [x] Vol.1 Ch.2 Forward EPS 초고
 - [ ] Vol.1 Ch.3 PER
 - [ ] Vol.1 Ch.4 Forward PER
 - [ ] Vol.1 Ch.5 PBR
