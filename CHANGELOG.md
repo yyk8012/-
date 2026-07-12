@@ -16,3 +16,4 @@
 - Vol.1 Ch.7 "DuPont Analysis" 초고 (9개 절 전체) — Volume 1 전 챕터 초고 완결
 - Volume 2 목차 확정 (PEG / EV·EBITDA / DCF / Target Price)
 - Vol.2 Ch.1 "PEG" 초고 (9개 절 전체)
+- Vol.2 Ch.2 "EV/EBITDA" 초고 (9개 절 전체)
