@@ -61,4 +61,4 @@ IEAMC/
 - [x] Vol.2 Ch.1 PEG 초고
 - [x] Vol.2 Ch.2 EV/EBITDA 초고
 - [x] Vol.2 Ch.3 DCF 초고
-- [ ] Vol.2 Ch.4 Target Price 종합
+- [x] Vol.2 Ch.4 Target Price 종합 초고
