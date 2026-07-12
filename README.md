@@ -53,7 +53,7 @@ IEAMC/
 - [x] Vol.1 Ch.1 EPS 초고
 - [x] Vol.1 Ch.2 Forward EPS 초고
 - [x] Vol.1 Ch.3 PER 초고
-- [ ] Vol.1 Ch.4 Forward PER
+- [x] Vol.1 Ch.4 Forward PER & Target PER 초고
 - [ ] Vol.1 Ch.5 PBR
 - [ ] Vol.1 Ch.6 ROE
 - [ ] Vol.1 Ch.7 DuPont
