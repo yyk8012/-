@@ -12,3 +12,4 @@
 - Vol.1 Ch.3 "PER" 초고 (9개 절 전체)
 - Vol.1 Ch.4 "Forward PER & Target PER" 초고 (9개 절 전체)
 - Vol.1 Ch.5 "PBR" 초고 (9개 절 전체)
+- Vol.1 Ch.6 "ROE" 초고 (9개 절 전체)
