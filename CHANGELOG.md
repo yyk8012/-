@@ -17,3 +17,4 @@
 - Volume 2 목차 확정 (PEG / EV·EBITDA / DCF / Target Price)
 - Vol.2 Ch.1 "PEG" 초고 (9개 절 전체)
 - Vol.2 Ch.2 "EV/EBITDA" 초고 (9개 절 전체)
+- Vol.2 Ch.3 "DCF" 초고 (9개 절 전체)
