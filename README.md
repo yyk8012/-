@@ -57,3 +57,8 @@ IEAMC/
 - [x] Vol.1 Ch.5 PBR 초고
 - [x] Vol.1 Ch.6 ROE 초고
 - [x] Vol.1 Ch.7 DuPont 초고
+- [x] Vol.2 목차 확정
+- [x] Vol.2 Ch.1 PEG 초고
+- [x] Vol.2 Ch.2 EV/EBITDA 초고
+- [x] Vol.2 Ch.3 DCF 초고
+- [x] Vol.2 Ch.4 Target Price 종합 초고
