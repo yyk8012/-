@@ -19,3 +19,5 @@
 - Vol.2 Ch.2 "EV/EBITDA" 초고 (9개 절 전체)
 - Vol.2 Ch.3 "DCF" 초고 (9개 절 전체)
 - Vol.2 Ch.4 "Target Price 종합" 초고 (9개 절 전체) — Volume 2 전 챕터 초고 완결
+- Volume 3 목차 확정 (ETF·패시브 / 패시브 vs 액티브 / 외국인 / 수급)
+- Vol.3 Ch.1 "ETF와 패시브 투자의 구조" 초고 (9개 절 전체)
