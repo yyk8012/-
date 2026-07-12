@@ -64,6 +64,6 @@ IEAMC/
 - [x] Vol.2 Ch.4 Target Price 종합 초고
 - [x] Vol.3 목차 확정
 - [x] Vol.3 Ch.1 ETF와 패시브 투자 초고
-- [ ] Vol.3 Ch.2 패시브 vs 액티브
+- [x] Vol.3 Ch.2 패시브 vs 액티브 초고
 - [ ] Vol.3 Ch.3 외국인 투자자와 글로벌 자금
 - [ ] Vol.3 Ch.4 수급 분석
