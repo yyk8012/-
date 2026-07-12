@@ -14,3 +14,5 @@
 - Vol.1 Ch.5 "PBR" 초고 (9개 절 전체)
 - Vol.1 Ch.6 "ROE" 초고 (9개 절 전체)
 - Vol.1 Ch.7 "DuPont Analysis" 초고 (9개 절 전체) — Volume 1 전 챕터 초고 완결
+- Volume 2 목차 확정 (PEG / EV·EBITDA / DCF / Target Price)
+- Vol.2 Ch.1 "PEG" 초고 (9개 절 전체)
