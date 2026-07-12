@@ -8,3 +8,4 @@
 - Repository 스켈레톤 (README, CHANGELOG, Volume1–5 폴더, Figures/References/Build)
 - Volume 1 목차 확정 (Ch.1–Ch.7)
 - Vol.1 Ch.1 "EPS" 초고 (9개 절 전체)
+- Vol.1 Ch.2 "Forward EPS" 초고 (9개 절 전체)
