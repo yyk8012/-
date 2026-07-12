@@ -10,3 +10,4 @@
 - Vol.1 Ch.1 "EPS" 초고 (9개 절 전체)
 - Vol.1 Ch.2 "Forward EPS" 초고 (9개 절 전체)
 - Vol.1 Ch.3 "PER" 초고 (9개 절 전체)
+- Vol.1 Ch.4 "Forward PER & Target PER" 초고 (9개 절 전체)
