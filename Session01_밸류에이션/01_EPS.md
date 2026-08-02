@@ -47,7 +47,7 @@ $$
 **(4) Trailing EPS vs Forward EPS**
 - Trailing EPS (TTM, Trailing Twelve Months): 최근 4개 분기 실제 실적을 합산한 EPS.
 - Forward EPS: 향후 12개월(NTM) 혹은 다음 회계연도(NFY, Next Fiscal Year)의 예상 EPS.
-- 시장이 실제로 가격에 반영하는 것은 Forward EPS다. Chapter 2에서 별도로 다룬다.
+- 시장이 실제로 가격에 반영하는 것은 Forward EPS다. 02에서 별도로 다룬다.
 
 ### 1.4 한 문장 정리
 
@@ -344,7 +344,7 @@ Basic 9,778원 → Diluted 5,229원으로 하락. 즉 실제 희석 효과가 �
 
 ### 7.2 Forward EPS 추정: Bottom-up
 
-Chapter 2에서 상세히 다루지만, 뼈대는 다음과 같다.
+02에서 상세히 다루지만, 뼈대는 다음과 같다.
 
 $$
 \text{Forward EPS} = \frac{\text{추정 매출} \times \text{추정 영업이익률} \times (1-\text{추정 이자·기타항목 부담률}) \times (1-\text{추정 세율})}{\text{추정 가중평균 주식수}}
@@ -422,7 +422,7 @@ Bridge는 서프라이즈 발생 시 원인 진단, 그리고 Forward EPS의 리
 - 기관 애널리스트가 저PER을 만났을 때 가장 먼저 확인하는 것은 EPS의 QoE와 사이클 위치다. 낮은 PER은 종종 시장이 이미 알고 있는 위험의 반영이다.
 - EPS는 그 자체가 결론이 아니라, 다음 장의 Forward EPS, 그리고 PER·Target Price로 이어지는 통로다.
 
-다음 Chapter 2에서는 Forward EPS의 산정 방법론, 컨센서스와의 갭 활용, Estimate Revision 트래킹을 다룬다.
+다음 02(Forward EPS)에서는 Forward EPS의 산정 방법론, 컨센서스와의 갭 활용, Estimate Revision 트래킹을 다룬다.
 
 ---
 
@@ -437,4 +437,4 @@ Bridge는 서프라이즈 발생 시 원인 진단, 그리고 Forward EPS의 리
 - FnGuide DataGuide, 컨센서스 산출 방법론
 
 ### 다음 챕터 예고
-Chapter 2. **Forward EPS** — 컨센서스 형성, Bottom-up/Top-down 추정, Estimate Revision, Earnings Bridge.
+02. **Forward EPS** — 컨센서스 형성, Bottom-up/Top-down 추정, Estimate Revision, Earnings Bridge.

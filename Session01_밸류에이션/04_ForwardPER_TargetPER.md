@@ -2,7 +2,7 @@
 
 > "밸류에이션의 최종 산출물은 결국 한 줄이다. Target Price = Target PER × Forward EPS. 이 장은 그 한 줄을 정직하게 쓰는 법을 다룬다."
 
-Chapter 2에서 Forward EPS를, Chapter 3에서 PER의 본질을 다뤘다. 이 장은 그 둘을 결합해 리서치 리포트의 마지막 페이지, 즉 **목표주가(Target Price)**를 만든다. 이 장의 목표는 세 가지다.
+02에서 Forward EPS를, 03에서 PER의 본질을 다뤘다. 이 장은 그 둘을 결합해 리서치 리포트의 마지막 페이지, 즉 **목표주가(Target Price)**를 만든다. 이 장의 목표는 세 가지다.
 
 1. Forward PER을 실무에서 어떻게 정의하고 사용하는가(그리고 어떤 착시가 있는가).
 2. Target PER을 무엇으로 정하는가 — Historical / Peer / Justified의 세 방법론과 그 조합.
@@ -16,7 +16,7 @@ Target Price는 밸류에이션의 결론처럼 보이지만, 실제로는 **가
 
 ### 1.1 Forward PER의 정의
 
-Forward PER은 현재 주가를 미래 예상 EPS로 나눈 값이다(Chapter 3의 1.3 확장).
+Forward PER은 현재 주가를 미래 예상 EPS로 나눈 값이다(03의 1.3 확장).
 
 $$
 \text{Forward PER} = \frac{\text{현재 주가}}{\text{Forward EPS}}
@@ -29,14 +29,14 @@ $$
 
 ### 1.2 Forward PER이 표준인 이유
 
-주가는 미래를 반영한다(지금 가격). 따라서 그 가격을 미래 이익(Forward EPS)으로 나눠야 시점이 맞는다(Chapter 3의 2.2 시점 정합성). Trailing PER은 '미래 가격 ÷ 과거 이익'이라 성장·감소 국면에서 왜곡된다. 그래서:
+주가는 미래를 반영한다(지금 가격). 따라서 그 가격을 미래 이익(Forward EPS)으로 나눠야 시점이 맞는다(03의 2.2 시점 정합성). Trailing PER은 '미래 가격 ÷ 과거 이익'이라 성장·감소 국면에서 왜곡된다. 그래서:
 
 - **밸류에이션·Target Price**: Forward EPS 사용(원칙).
 - **스크리닝·역사 비교**: Trailing과 Forward를 병용하되 기준을 통일.
 
 ### 1.3 Forward PER의 착시: 롤(roll) 효과
 
-Chapter 2에서 다룬 NTM의 롤 효과가 여기서 밸류에이션 착시로 나타난다. 시간이 흐르면 NTM EPS의 무게중심이 다음 연도로 이동하며, 이익이 성장하는 회사는 **추정을 바꾸지 않아도 NTM EPS가 상승 → 같은 주가에서 Forward PER이 저절로 하락**한다.
+02에서 다룬 NTM의 롤 효과가 여기서 밸류에이션 착시로 나타난다. 시간이 흐르면 NTM EPS의 무게중심이 다음 연도로 이동하며, 이익이 성장하는 회사는 **추정을 바꾸지 않아도 NTM EPS가 상승 → 같은 주가에서 Forward PER이 저절로 하락**한다.
 
 $$
 \text{시간 경과} \Rightarrow \text{NTM EPS} \uparrow \Rightarrow \text{Forward PER} \downarrow \ (\text{주가·추정 불변 시})
@@ -53,7 +53,7 @@ $$
 \boxed{\text{Target Price} = \text{Target PER} \times \text{Forward EPS}}
 $$
 
-이 한 줄이 PER 기반 밸류에이션의 결론이다. 여기서 두 입력값 모두 판단이다. Forward EPS는 Chapter 2의 산출물, Target PER은 이 장의 핵심 과제다. 두 판단의 곱이므로 **오차가 곱으로 증폭**된다 — EPS를 10% 틀리고 PER을 10% 틀리면 Target Price는 약 21% 틀린다.
+이 한 줄이 PER 기반 밸류에이션의 결론이다. 여기서 두 입력값 모두 판단이다. Forward EPS는 02의 산출물, Target PER은 이 장의 핵심 과제다. 두 판단의 곱이므로 **오차가 곱으로 증폭**된다 — EPS를 10% 틀리고 PER을 10% 틀리면 Target Price는 약 21% 틀린다.
 
 ### 1.5 한 문장 정리
 
@@ -76,7 +76,7 @@ Historical 평균 PER을 Target PER로 쓸 때 특히 주의한다. 과거 밴�
 
 ### 2.2 기준 통일: Diluted·지배주주·조정 기준
 
-Chapter 3의 2.3~2.4를 그대로 계승한다. Forward EPS도:
+03의 2.3~2.4를 그대로 계승한다. Forward EPS도:
 
 - **Diluted 기준**(잠재주식 반영),
 - **지배주주 귀속·연결 기준**,
@@ -86,11 +86,11 @@ Chapter 3의 2.3~2.4를 그대로 계승한다. Forward EPS도:
 
 ### 2.3 자본구조와 PER: EV 기반 지표와의 관계
 
-PER은 **자기자본(Equity) 기준** 지표다. 순부채가 크게 다른 회사들을 PER로 직접 비교하면 레버리지 차이가 왜곡을 만든다. 부채가 많은 회사는 이자비용으로 EPS가 눌려 PER이 높게 보일 수 있다. 이 한계 때문에 실무는 자본구조 중립적인 **EV/EBITDA**(Volume 2)를 병용한다. Target PER 산정 시에도 "Peer 간 레버리지 차이가 배수 차이를 설명하는가"를 점검해야 한다.
+PER은 **자기자본(Equity) 기준** 지표다. 순부채가 크게 다른 회사들을 PER로 직접 비교하면 레버리지 차이가 왜곡을 만든다. 부채가 많은 회사는 이자비용으로 EPS가 눌려 PER이 높게 보일 수 있다. 이 한계 때문에 실무는 자본구조 중립적인 **EV/EBITDA**(Session02)를 병용한다. Target PER 산정 시에도 "Peer 간 레버리지 차이가 배수 차이를 설명하는가"를 점검해야 한다.
 
 ### 2.4 Justified PER의 회계적 뿌리 (요약)
 
-Chapter 3의 예시 B에서 유도했듯, 배당할인모형에서 Forward Justified PER이 나온다.
+03의 예시 B에서 유도했듯, 배당할인모형에서 Forward Justified PER이 나온다.
 
 $$
 \text{Forward Justified PER} = \frac{b}{r - g}
@@ -104,7 +104,7 @@ $$
 
 ### 2.5 성장·ROE와 목표 배수의 연결
 
-Justified PER은 ROE와도 연결된다. 지속성장률 $g = \text{ROE} \times (1 - b)$(유보율 × ROE)이므로, 목표 배수는 결국 **ROE·재투자·자본비용**의 함수다. 고ROE 회사가 높은 Target PER을 정당화하는 이유이며(Chapter 3의 `PER = PBR/ROE`와 정합), Chapter 6(ROE)·Chapter 7(DuPont)에서 이 성장의 원천을 분해한다.
+Justified PER은 ROE와도 연결된다. 지속성장률 $g = \text{ROE} \times (1 - b)$(유보율 × ROE)이므로, 목표 배수는 결국 **ROE·재투자·자본비용**의 함수다. 고ROE 회사가 높은 Target PER을 정당화하는 이유이며(03의 `PER = PBR/ROE`와 정합), 06(ROE)·07(DuPont)에서 이 성장의 원천을 분해한다.
 
 ---
 
@@ -143,7 +143,7 @@ Peer 대비 목표 배수를 정할 때, 프리미엄/디스카운트는 반드�
 
 ### 3.3 목표 배수와 시장 국면 (금리·리스크)
 
-Target PER은 금리·리스크 프리미엄 국면에 연동된다(Chapter 3의 3.4). 자기자본비용 $r$이 오르면 Justified PER이 낮아지고, Historical 밴드도 저금리 시절 값이면 현재 금리에서 과대할 수 있다. 목표 배수를 정할 때 **밸류에이션 기준일의 금리 환경**을 반영한다. 금리 급등기에 과거 5년 평균 PER을 그대로 목표로 쓰면 목표주가가 구조적으로 높게 나온다.
+Target PER은 금리·리스크 프리미엄 국면에 연동된다(03의 3.4). 자기자본비용 $r$이 오르면 Justified PER이 낮아지고, Historical 밴드도 저금리 시절 값이면 현재 금리에서 과대할 수 있다. 목표 배수를 정할 때 **밸류에이션 기준일의 금리 환경**을 반영한다. 금리 급등기에 과거 5년 평균 PER을 그대로 목표로 쓰면 목표주가가 구조적으로 높게 나온다.
 
 ### 3.4 리레이팅을 목표 배수에 반영할 것인가
 
@@ -157,7 +157,7 @@ $$
 \text{Upside} = \frac{\text{Target Price} - \text{현재 주가}}{\text{현재 주가}}
 $$
 
-증권사마다 기준은 다르지만 통상 상승여력 기준으로 Buy/Hold/Sell(또는 Overweight/Neutral/Underweight)을 부여한다. 목표주가는 보통 **12개월 목표**이며, 그에 맞춰 Forward EPS도 해당 시점 기준을 쓴다. 목표주가 상향/하향은 그 자체로 Estimate Revision과 함께 주가를 움직이는 이벤트다(Chapter 2의 3.3).
+증권사마다 기준은 다르지만 통상 상승여력 기준으로 Buy/Hold/Sell(또는 Overweight/Neutral/Underweight)을 부여한다. 목표주가는 보통 **12개월 목표**이며, 그에 맞춰 Forward EPS도 해당 시점 기준을 쓴다. 목표주가 상향/하향은 그 자체로 Estimate Revision과 함께 주가를 움직이는 이벤트다(02의 3.3).
 
 ---
 
@@ -207,11 +207,11 @@ $$
 
 ### 5.1 성장주: 배수 확장에 기댄 목표주가의 취약성
 
-고성장주 리서치에서 흔한 패턴이다. 목표주가 상승여력의 대부분이 "현재 30배 → 목표 40배"라는 배수 확장 가정에서 나온다. EPS 성장은 견조하지만, 목표주가를 정당화하는 결정적 레버는 배수다. 금리가 오르거나 성장 기대가 한 단계 낮아지면 배수 확장 가정이 먼저 무너지고, EPS가 멀쩡해도 목표주가와 주가가 함께 내려온다(Chapter 3의 De-rating). 교훈: **상승여력의 원천이 배수인 목표주가는 금리·심리에 취약**하다.
+고성장주 리서치에서 흔한 패턴이다. 목표주가 상승여력의 대부분이 "현재 30배 → 목표 40배"라는 배수 확장 가정에서 나온다. EPS 성장은 견조하지만, 목표주가를 정당화하는 결정적 레버는 배수다. 금리가 오르거나 성장 기대가 한 단계 낮아지면 배수 확장 가정이 먼저 무너지고, EPS가 멀쩡해도 목표주가와 주가가 함께 내려온다(03의 De-rating). 교훈: **상승여력의 원천이 배수인 목표주가는 금리·심리에 취약**하다.
 
 ### 5.2 사이클주: Forward EPS의 시점이 목표주가를 좌우
 
-반도체 같은 사이클주는 목표주가가 **어느 해 EPS를 분모로 쓰느냐**에 극도로 민감하다. 회복 사이클 초입에서 애널리스트가 분모를 회복 정점 연도(FY+2)의 높은 EPS로 잡으면 목표주가가 크게 뛴다. 이때 "12개월 목표주가인데 2년 뒤 정점 이익을 분모로 썼다"면 시점 불일치다(4.4). 반대로 정점에서 다운사이클 진입 시 분모를 정점 EPS로 두면 목표주가가 과대해진다. 사이클주는 Forward EPS 시점 선택과 Mid-cycle 조정(Chapter 3의 예시 E)이 목표주가의 핵심 변수다.
+반도체 같은 사이클주는 목표주가가 **어느 해 EPS를 분모로 쓰느냐**에 극도로 민감하다. 회복 사이클 초입에서 애널리스트가 분모를 회복 정점 연도(FY+2)의 높은 EPS로 잡으면 목표주가가 크게 뛴다. 이때 "12개월 목표주가인데 2년 뒤 정점 이익을 분모로 썼다"면 시점 불일치다(4.4). 반대로 정점에서 다운사이클 진입 시 분모를 정점 EPS로 두면 목표주가가 과대해진다. 사이클주는 Forward EPS 시점 선택과 Mid-cycle 조정(03의 예시 E)이 목표주가의 핵심 변수다.
 
 ### 5.3 리레이팅 스토리: 목표 배수 상향의 정당성 검증
 
@@ -267,7 +267,7 @@ $$
 
 ### 6.4 예시 D. Bear / Base / Bull 목표주가와 Risk/Reward
 
-Chapter 2의 EPS 시나리오와 Target PER 시나리오를 결합한다.
+02의 EPS 시나리오와 Target PER 시나리오를 결합한다.
 
 | 시나리오 | Fwd EPS | Target PER | Target Price |
 |---|---|---|---|
@@ -299,7 +299,7 @@ $$
 
 ### 7.1 Target Price 산정 워크플로우
 
-1. **Forward EPS 확정**(Chapter 2): 시나리오 3종, 시점(NTM/FY+1) 명시.
+1. **Forward EPS 확정**(02): 시나리오 3종, 시점(NTM/FY+1) 명시.
 2. **Target PER 삼각측량**(예시 B): Historical·Peer·Justified 세 값 산출·종합.
 3. **시점 정합 확인**: 목표 배수 분모 기준 = 곱하는 EPS 시점(2.1).
 4. **Target Price 계산**: Base 산출(예시 A).
@@ -322,7 +322,7 @@ $$
 
 목표주가는 한 번 던지고 끝나지 않는다.
 
-- **Forward EPS 리비전**(Chapter 2의 3.3)이 발생하면 목표주가도 갱신한다.
+- **Forward EPS 리비전**(02의 3.3)이 발생하면 목표주가도 갱신한다.
 - 주가가 목표주가에 도달하면 투자의견을 재검토한다(상향/하향/유지).
 - 목표 배수의 전제(금리·리레이팅 논리)가 바뀌면 배수를 재산정한다.
 
@@ -379,7 +379,7 @@ $$
 - 민감도표(PER × EPS)와 Bear/Base/Bull 시나리오가 목표주가를 '주장'에서 '검증 가능한 분석'으로 바꾼다.
 - 목표주가는 던지고 끝이 아니라, EPS 리비전과 배수 전제 변화에 따라 갱신되는 살아있는 뷰다.
 
-이로써 Volume 1의 이익·배수 축(EPS → Forward EPS → PER → Forward/Target PER)이 완결된다. 다음 Chapter 5부터는 자본 축(PBR)과 수익성 축(ROE·DuPont)으로 넘어가, `PER = PBR / ROE` 항등식의 나머지 두 변을 채운다.
+이로써 Session01의 이익·배수 축(EPS → Forward EPS → PER → Forward/Target PER)이 완결된다. 다음 05(PBR)부터는 자본 축(PBR)과 수익성 축(ROE·DuPont)으로 넘어가, `PER = PBR / ROE` 항등식의 나머지 두 변을 채운다.
 
 ---
 
@@ -393,4 +393,4 @@ $$
 - FnGuide DataGuide / IBES — 목표주가·투자의견 컨센서스
 
 ### 다음 챕터 예고
-Chapter 5. **PBR (Price-to-Book Ratio)** — Book Value 정의, Tangible Book Value, 산업별 PBR 특성, Justified PBR = (ROE − g)/(COE − g), 그리고 `PER = PBR / ROE`로의 연결.
+05. **PBR (Price-to-Book Ratio)** — Book Value 정의, Tangible Book Value, 산업별 PBR 특성, Justified PBR = (ROE − g)/(COE − g), 그리고 `PER = PBR / ROE`로의 연결.

@@ -2,13 +2,13 @@
 
 > "시장은 어제 번 돈에 값을 매기지 않는다. 내일 벌 것으로 믿는 돈에 값을 매긴다. Forward EPS는 그 '믿음'을 숫자로 옮긴 것이다."
 
-Chapter 1에서 EPS는 "이미 지나간 회계기간의 주당 순이익"이었다. 그러나 주가에 실제로 반영되는 것은 Trailing EPS가 아니라 **Forward EPS**임을 여러 차례 예고했다. 이 장의 목표는 세 가지다.
+01에서 EPS는 "이미 지나간 회계기간의 주당 순이익"이었다. 그러나 주가에 실제로 반영되는 것은 Trailing EPS가 아니라 **Forward EPS**임을 여러 차례 예고했다. 이 장의 목표는 세 가지다.
 
 1. Forward EPS가 무엇을 의미하며, Trailing EPS와 어떻게 시점·구성이 다른가.
 2. Forward EPS는 누가, 어떤 절차로 만들어내며(컨센서스 형성), 애널리스트는 자체 추정치를 어떻게 세우는가(Bottom-up / Top-down).
 3. Forward EPS의 **레벨(수준)보다 그 변화(Estimate Revision)가** 왜 더 강한 신호인가.
 
-Forward EPS는 PER의 분모, Target Price의 재료, 그리고 Chapter 4에서 다룰 Forward PER의 핵심 입력값이다. 이 장을 통과하지 못하면 이후 모든 밸류에이션은 지나간 숫자 위에 지어진 집이 된다.
+Forward EPS는 PER의 분모, Target Price의 재료, 그리고 04에서 다룰 Forward PER의 핵심 입력값이다. 이 장을 통과하지 못하면 이후 모든 밸류에이션은 지나간 숫자 위에 지어진 집이 된다.
 
 ---
 
@@ -41,7 +41,7 @@ $$
 
 일부 벤더는 분기 추정치를 직접 롤링 합산한다. 즉 "앞으로 도래할 다음 4개 분기 추정 EPS의 합"이다. 이 방식이 더 정밀하지만, 분기 추정치가 없는 소형주에서는 위의 연도 가중 근사를 쓴다.
 
-**실무 함의**: NTM은 시간이 흐르면 자동으로 값이 올라가거나 내려간다(추정치를 바꾸지 않아도). 회계연도가 진행될수록 무게중심이 FY2 쪽으로 이동하기 때문이다. 이익이 성장하는 회사라면 NTM EPS는 추정 변경 없이도 시간 경과만으로 상승하고, 이는 "가만히 있어도 PER이 낮아지는" 롤(roll) 효과를 만든다. Chapter 4에서 Forward PER을 다룰 때 이 롤 효과가 밸류에이션 착시를 만들 수 있음을 다시 짚는다.
+**실무 함의**: NTM은 시간이 흐르면 자동으로 값이 올라가거나 내려간다(추정치를 바꾸지 않아도). 회계연도가 진행될수록 무게중심이 FY2 쪽으로 이동하기 때문이다. 이익이 성장하는 회사라면 NTM EPS는 추정 변경 없이도 시간 경과만으로 상승하고, 이는 "가만히 있어도 PER이 낮아지는" 롤(roll) 효과를 만든다. 04에서 Forward PER을 다룰 때 이 롤 효과가 밸류에이션 착시를 만들 수 있음을 다시 짚는다.
 
 ### 1.3 Trailing과 Forward의 구조적 차이
 
@@ -127,13 +127,13 @@ $$
 순이익까지 내려가는 마지막 구간에서 세 가지가 EPS를 왜곡한다.
 
 **(a) 영업외손익(Below-the-line)**
-지분법손익, 외화환산손익, 파생상품 평가손익, 일회성 처분손익은 예측이 어렵고 변동성이 크다. 애널리스트는 통상 이 부분을 **보수적으로(0 또는 정상 수준으로) 가정**하고, 일회성은 Forward EPS에서 제외한다. 여기서 Chapter 1의 "Recurring EPS" 개념이 다시 등장한다. Forward EPS는 원칙적으로 **Recurring 기준**으로 만든다.
+지분법손익, 외화환산손익, 파생상품 평가손익, 일회성 처분손익은 예측이 어렵고 변동성이 크다. 애널리스트는 통상 이 부분을 **보수적으로(0 또는 정상 수준으로) 가정**하고, 일회성은 Forward EPS에서 제외한다. 여기서 01의 "Recurring EPS" 개념이 다시 등장한다. Forward EPS는 원칙적으로 **Recurring 기준**으로 만든다.
 
 **(b) 유효세율(Effective Tax Rate)**
 법정세율이 아니라 유효세율을 써야 한다. R&D 세액공제, 이월결손금, 해외 자회사 세율 믹스, 최저한세 등으로 유효세율은 법정세율과 크게 다를 수 있다. 세율 1%p 변화는 순이익을 직접 흔든다. 세제 개편(예: 글로벌 최저한세 Pillar 2)은 다년 Forward EPS의 구조적 하향 요인이 될 수 있다.
 
 **(c) 비지배지분(NCI)**
-Chapter 1에서 강조한 그대로, Forward EPS의 분자도 **지배주주 귀속 순이익**이어야 한다. 자회사 성장이 강한 회사는 연결 순이익이 늘어도 지배주주 몫이 그만큼 늘지 않을 수 있다. NCI 비율을 과거 추세로 추정해 반영한다.
+01에서 강조한 그대로, Forward EPS의 분자도 **지배주주 귀속 순이익**이어야 한다. 자회사 성장이 강한 회사는 연결 순이익이 늘어도 지배주주 몫이 그만큼 늘지 않을 수 있다. NCI 비율을 과거 추세로 추정해 반영한다.
 
 ### 2.5 분모: 미래 가중평균 주식수
 
@@ -153,7 +153,7 @@ Trailing EPS가 확정된 손익계산서의 마지막 줄이라면, Forward EPS
 
 ## 3. 시장 메커니즘
 
-이 절은 "Forward EPS가 어떻게 형성되고, 어떻게 갱신되며, 어떻게 주가에 반영되는가"를 다룬다. Chapter 1이 '실적 발표 후 반응'이었다면, 이 절은 '발표와 발표 사이에 일어나는 추정치의 상시 갱신'이 핵심이다.
+이 절은 "Forward EPS가 어떻게 형성되고, 어떻게 갱신되며, 어떻게 주가에 반영되는가"를 다룬다. 01이 '실적 발표 후 반응'이었다면, 이 절은 '발표와 발표 사이에 일어나는 추정치의 상시 갱신'이 핵심이다.
 
 ### 3.1 컨센서스 형성의 실제 파이프라인
 
@@ -165,7 +165,7 @@ Forward EPS 컨센서스는 다음 파이프라인으로 만들어진다.
 4. **스테일 처리(Staleness)**: 오래된 추정치(예: 90일 이상 미갱신, 커버리지 중단)는 컨센서스에서 제외하거나 가중을 낮춘다.
 5. **상시 갱신**: 새 리포트가 나올 때마다 컨센서스가 재계산된다. 즉 컨센서스는 하루에도 여러 번 바뀔 수 있다.
 
-**중요**: 컨센서스는 리포트 발간에 **후행**한다. 큰 뉴스가 나온 직후 며칠간은 옛 추정치가 남아 컨센서스가 현실을 반영하지 못하는 '컨센서스 래그(lag)' 구간이 생긴다. 이 래그가 PEAD(Chapter 1)와 Estimate Revision 모멘텀의 원천 중 하나다.
+**중요**: 컨센서스는 리포트 발간에 **후행**한다. 큰 뉴스가 나온 직후 며칠간은 옛 추정치가 남아 컨센서스가 현실을 반영하지 못하는 '컨센서스 래그(lag)' 구간이 생긴다. 이 래그가 PEAD(01)와 Estimate Revision 모멘텀의 원천 중 하나다.
 
 ### 3.2 IBES, FnGuide, Bloomberg: 벤더별 차이
 
@@ -209,7 +209,7 @@ Estimate Revision이 상방으로 돌아설 때 주가 초과수익이 나타난
 
 ### 3.5 가이던스·프리어나운스먼트와 컨센서스의 상호작용
 
-회사의 가이던스는 Forward EPS 컨센서스의 앵커다(Chapter 1의 3.5 확장). Forward 맥락에서 추가로 볼 것:
+회사의 가이던스는 Forward EPS 컨센서스의 앵커다(01의 3.5 확장). Forward 맥락에서 추가로 볼 것:
 
 - **가이던스 상향/하향**은 즉시 대규모 리비전을 촉발한다. Actual 실적보다 가이던스 수정이 Forward EPS를 더 크게 움직인다.
 - **프리어나운스먼트(Pre-announcement)**: 실적 발표 전 회사가 큰 괴리를 미리 알리는 것. 어닝 쇼크·서프라이즈를 사전에 컨센서스에 흡수시킨다.
@@ -422,11 +422,11 @@ Forward EPS의 **절대 레벨보다 리비전의 방향·가속도**를 대시�
 Forward EPS는 그 자체가 목적이 아니라 다음 장들의 입력값이다.
 
 $$
-\text{Forward PER} = \frac{\text{주가}}{\text{Forward EPS}} \quad(\text{Chapter 4})
+\text{Forward PER} = \frac{\text{주가}}{\text{Forward EPS}} \quad(\text{04})
 $$
 
 $$
-\text{Target Price} = \text{Target PER} \times \text{Forward EPS} \quad(\text{Chapter 4})
+\text{Target Price} = \text{Target PER} \times \text{Forward EPS} \quad(\text{04})
 $$
 
 여기서 실무적으로 중요한 원칙: **Target Price 산정에는 반드시 Forward EPS(통상 FY+1 또는 NTM)를 쓴다.** Trailing EPS로 Target PER을 곱하면 이미 지나간 이익에 미래 배수를 곱하는 시점 불일치가 생긴다. NTM/NFY 중 어느 것을 쓸지, 그리고 롤 효과(예시 A)를 어떻게 처리할지를 리서치 내에서 일관되게 정의해야 한다.
@@ -484,9 +484,9 @@ Forward EPS를 밸류에이션에 투입하기 전, 위에서 아래로 점검�
 - 회계적으로 Forward EPS는 매출→마진→세금→주식수까지 전부 추정해 그린 **예상 손익계산서의 마지막 줄**이다. 매출은 Q×P로, 마진은 오퍼레이팅 레버리지로 분해해야 성장의 질을 판별할 수 있다.
 - 시장은 Forward EPS의 **레벨보다 리비전(변화)**에 더 강하게 반응한다. 컨센서스 래그와 투자자 과소반응이 리비전 모멘텀(드리프트)을 만든다.
 - 기관의 요체는 컨센서스를 출발점으로만 쓰고, 드라이버 기반 자체 추정으로 갭(배리언트 퍼셉션)을 만들며, 그 갭이 향후 리비전으로 해소될 것을 근거로 포지션을 잡는 것이다.
-- Forward EPS는 결론이 아니라 통로다. 다음 Chapter 3(PER)·Chapter 4(Forward PER·Target Price)로 이어지며, Target Price = Target PER × Forward EPS로 결합된다.
+- Forward EPS는 결론이 아니라 통로다. 다음 03(PER)·04(Forward PER·Target Price)로 이어지며, Target Price = Target PER × Forward EPS로 결합된다.
 
-다음 Chapter 3에서는 PER의 정의와 함정, 산업별 밴드, Justified PER(Gordon Growth), 그리고 Earnings Yield와 금리의 관계를 다룬다.
+다음 03(PER)에서는 PER의 정의와 함정, 산업별 밴드, Justified PER(Gordon Growth), 그리고 Earnings Yield와 금리의 관계를 다룬다.
 
 ---
 
@@ -501,4 +501,4 @@ Forward EPS를 밸류에이션에 투입하기 전, 위에서 아래로 점검�
 - Damodaran, A., *Investment Valuation* — Forecasting Earnings, Estimation of Growth
 
 ### 다음 챕터 예고
-Chapter 3. **PER (Price-to-Earnings Ratio)** — Trailing PER의 함정, 산업별 PER 밴드, Justified PER, Multiple Expansion/Contraction, Earnings Yield와 금리.
+03. **PER (Price-to-Earnings Ratio)** — Trailing PER의 함정, 산업별 PER 밴드, Justified PER, Multiple Expansion/Contraction, Earnings Yield와 금리.

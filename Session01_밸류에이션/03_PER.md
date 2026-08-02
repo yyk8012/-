@@ -2,7 +2,7 @@
 
 > "PER은 답이 아니라 질문이다. '왜 이 회사는 이 배수에 거래되는가'라는 질문."
 
-Chapter 1에서 EPS를 만들었고, Chapter 2에서 그 EPS를 미래로 밀어 Forward EPS를 세웠다. 이제 그 이익에 시장이 매기는 **가격의 배수**를 다룬다. PER은 밸류에이션에서 가장 널리 쓰이면서 가장 자주 오용되는 지표다. 이 장의 목표는 세 가지다.
+01에서 EPS를 만들었고, 02에서 그 EPS를 미래로 밀어 Forward EPS를 세웠다. 이제 그 이익에 시장이 매기는 **가격의 배수**를 다룬다. PER은 밸류에이션에서 가장 널리 쓰이면서 가장 자주 오용되는 지표다. 이 장의 목표는 세 가지다.
 
 1. PER이 회계적으로 무엇을 의미하며, 분모의 '이익'을 어떻게 정의해야 하는가.
 2. PER의 높고 낮음은 무엇으로 결정되는가(Justified PER의 논리).
@@ -52,7 +52,7 @@ $$
 \text{Forward PER} = \frac{\text{주가}}{\text{Forward EPS}} < \text{Trailing PER} \quad(\text{이익 성장 시})
 $$
 
-이익이 성장하는 회사는 Forward PER이 Trailing PER보다 낮다(분모가 크므로). 이 장에서 개념은 Trailing 기준으로 설명하되, **실전 밸류에이션은 Forward 기준**이 원칙임을 계속 상기한다. Chapter 4에서 Forward PER과 Target PER을 본격적으로 다룬다. Chapter 2의 롤(roll) 효과는 여기서도 유효하다 — 시간이 흐르면 같은 주가에서도 Forward PER이 저절로 낮아진다.
+이익이 성장하는 회사는 Forward PER이 Trailing PER보다 낮다(분모가 크므로). 이 장에서 개념은 Trailing 기준으로 설명하되, **실전 밸류에이션은 Forward 기준**이 원칙임을 계속 상기한다. 04에서 Forward PER과 Target PER을 본격적으로 다룬다. 02의 롤(roll) 효과는 여기서도 유효하다 — 시간이 흐르면 같은 주가에서도 Forward PER이 저절로 낮아진다.
 
 ### 1.4 PER이 성립하지 않는 경우
 
@@ -73,7 +73,7 @@ PER은 "시장이 이 회사의 1원 이익에 지불하는 가격"이며, 그 �
 
 ## 2. 회계 연결
 
-PER의 분자(주가·시가총액)는 시장에서 관측되는 값이라 논쟁이 없다. 논쟁은 전부 **분모의 '이익(E)'을 무엇으로 잡을 것인가**에 있다. 이 절은 Chapter 1·2의 EPS 논의를 PER의 분모 관점에서 재정렬한다.
+PER의 분자(주가·시가총액)는 시장에서 관측되는 값이라 논쟁이 없다. 논쟁은 전부 **분모의 '이익(E)'을 무엇으로 잡을 것인가**에 있다. 이 절은 01·02의 EPS 논의를 PER의 분모 관점에서 재정렬한다.
 
 ### 2.1 분모 E의 선택: 같은 주가, 다른 PER
 
@@ -101,11 +101,11 @@ PER의 분자(주가·시가총액)는 시장에서 관측되는 값이라 논�
 
 ### 2.3 희석 기준 통일
 
-분모 EPS는 Basic이 아니라 **Diluted 기준**을 쓰는 것이 밸류에이션 관행이다(Chapter 1의 2.3). 잠재적 주식(CB, BW, 옵션, RSU)이 많은 회사는 Basic PER이 낮게 보여도 Diluted 기준으로는 배수가 올라간다. 특히 스톡옵션이 많은 성장 기업, 대규모 CB를 발행한 기업은 반드시 Diluted로 통일해야 한다.
+분모 EPS는 Basic이 아니라 **Diluted 기준**을 쓰는 것이 밸류에이션 관행이다(01의 2.3). 잠재적 주식(CB, BW, 옵션, RSU)이 많은 회사는 Basic PER이 낮게 보여도 Diluted 기준으로는 배수가 올라간다. 특히 스톡옵션이 많은 성장 기업, 대규모 CB를 발행한 기업은 반드시 Diluted로 통일해야 한다.
 
 ### 2.4 연결·지배주주 기준 통일
 
-분모 순이익은 **지배주주 귀속·연결 기준**으로 통일한다(Chapter 1의 2.1). 자회사가 많은 지주회사·대기업집단은 연결 총 순이익과 지배주주 순이익의 차이가 크므로, 어느 것을 분모로 쓰는지에 따라 PER이 크게 달라진다. 지주회사 PER 분석에서 특히 중요하다.
+분모 순이익은 **지배주주 귀속·연결 기준**으로 통일한다(01의 2.1). 자회사가 많은 지주회사·대기업집단은 연결 총 순이익과 지배주주 순이익의 차이가 크므로, 어느 것을 분모로 쓰는지에 따라 PER이 크게 달라진다. 지주회사 PER 분석에서 특히 중요하다.
 
 ### 2.5 이익수익률과 자본비용의 회계적 연결
 
@@ -115,7 +115,7 @@ $$
 \text{Earnings Yield} = \frac{E}{P} = \frac{E}{B}\times\frac{B}{P} = \text{ROE} \times \frac{1}{\text{PBR}}
 $$
 
-즉 $\text{PER} = \dfrac{\text{PBR}}{\text{ROE}}$ 의 관계가 성립한다. 이 항등식은 Chapter 5(PBR)·Chapter 6(ROE)와의 연결고리이며, "PER·PBR·ROE 중 둘을 알면 나머지가 결정된다"는 Volume 1 전체의 뼈대다. 고ROE 회사가 높은 PER과 높은 PBR을 동시에 갖는 이유가 이 항등식에 있다.
+즉 $\text{PER} = \dfrac{\text{PBR}}{\text{ROE}}$ 의 관계가 성립한다. 이 항등식은 05(PBR)·06(ROE)와의 연결고리이며, "PER·PBR·ROE 중 둘을 알면 나머지가 결정된다"는 Session01 전체의 뼈대다. 고ROE 회사가 높은 PER과 높은 PBR을 동시에 갖는 이유가 이 항등식에 있다.
 
 ---
 
@@ -190,7 +190,7 @@ PER은 컨센서스 심리를 반영하므로 자기강화적 성격이 있다. 
 1. **진짜 저평가**: 시장이 이 회사의 이익 지속성을 과소평가. → 매수 기회.
 2. **밸류 트랩(Value Trap)**: 이익이 곧 감소할 것을 시장이 이미 알고 낮은 배수를 매김. → 함정.
 
-둘을 가르는 열쇠는 **분모 EPS의 지속가능성**이다. 저PER의 EPS가 (a) 사이클 정점 이익인가, (b) 일회성 이익을 포함하는가, (c) 구조적으로 감소하는 사업인가를 확인한다. Chapter 1의 Quality of Earnings와 사이클 위치 판정이 여기서 결정적으로 작동한다. **저PER은 종종 시장이 이미 아는 위험의 반영**이다.
+둘을 가르는 열쇠는 **분모 EPS의 지속가능성**이다. 저PER의 EPS가 (a) 사이클 정점 이익인가, (b) 일회성 이익을 포함하는가, (c) 구조적으로 감소하는 사업인가를 확인한다. 01의 Quality of Earnings와 사이클 위치 판정이 여기서 결정적으로 작동한다. **저PER은 종종 시장이 이미 아는 위험의 반영**이다.
 
 ### 4.2 질문 2: 이 PER이 가정하는 성장률은 얼마인가 (역산)
 
@@ -198,7 +198,7 @@ PER은 컨센서스 심리를 반영하므로 자기강화적 성격이 있다. 
 
 ### 4.3 질문 3: 사이클의 어디인가 (Cyclically-Adjusted)
 
-사이클 산업에서 단년도 PER은 함정이다(Chapter 1 재확인).
+사이클 산업에서 단년도 PER은 함정이다(01 재확인).
 
 - 사이클 **정점**: 이익 최대 → 분모 큼 → PER 낮게 보임 → "싸 보이지만 위험".
 - 사이클 **저점**: 이익 최소(혹은 적자) → 분모 작음 → PER 높게 보임 → "비싸 보이지만 기회".
@@ -312,7 +312,7 @@ $$
 \text{PER} = \frac{\text{PBR}}{\text{ROE}} = \frac{1.8}{0.12} = 15.0\text{배}
 $$
 
-역으로 이 회사가 PER 15배에 거래된다면 시장은 ROE 12%에 대해 PBR 1.8배를 지불하는 것이다. 만약 ROE가 15%로 개선되면(다른 조건 불변, PER 유지 가정) 정당 PBR은 $0.15 \times 15 = 2.25$배로 상승한다. 이 연결이 Chapter 5·6에서 확장된다. PER·PBR·ROE는 한 몸이다.
+역으로 이 회사가 PER 15배에 거래된다면 시장은 ROE 12%에 대해 PBR 1.8배를 지불하는 것이다. 만약 ROE가 15%로 개선되면(다른 조건 불변, PER 유지 가정) 정당 PBR은 $0.15 \times 15 = 2.25$배로 상승한다. 이 연결이 05·06에서 확장된다. PER·PBR·ROE는 한 몸이다.
 
 ### 6.5 예시 E. Cyclically-Adjusted PER (사이클 조정)
 
@@ -354,11 +354,11 @@ $$
 | B | 18배 | 15% | 18% | 0.5 |
 | C | 9배 | 3% | 8% | 2.5 |
 
-B의 PER이 가장 높지만 성장·ROE도 가장 높고 부채는 가장 낮다 → 프리미엄이 정당화될 수 있다. C의 저PER은 저성장·저ROE·고부채의 반영일 수 있다(밸류 트랩 의심). **PER 단독 순위가 아니라 질(성장·ROE·위험)로 조정한 순위**를 본다. PEG(PER÷성장률)는 이 조정을 단순화한 지표이며 Volume 2에서 다룬다.
+B의 PER이 가장 높지만 성장·ROE도 가장 높고 부채는 가장 낮다 → 프리미엄이 정당화될 수 있다. C의 저PER은 저성장·저ROE·고부채의 반영일 수 있다(밸류 트랩 의심). **PER 단독 순위가 아니라 질(성장·ROE·위험)로 조정한 순위**를 본다. PEG(PER÷성장률)는 이 조정을 단순화한 지표이며 Session02에서 다룬다.
 
 ### 7.4 PER과 Target Price의 연결
 
-Chapter 4의 예고. Target Price는 다음으로 산정된다.
+04의 예고. Target Price는 다음으로 산정된다.
 
 $$
 \text{Target Price} = \text{Target PER} \times \text{Forward EPS}
@@ -418,10 +418,10 @@ PER로 밸류에이션 판단을 내리기 전, 위에서 아래로 점검한다
 - PER은 성장 기대·금리·위험에 따라 확장·축소(Multiple Expansion/Contraction)되며, 사업모델 변화로 밴드 자체가 이동(리레이팅)한다. 주가 변화는 항상 EPS 요인과 배수 요인으로 분해한다.
 - 저PER은 저평가일 수도, 밸류 트랩일 수도 있다. 갈림길은 분모 EPS의 지속가능성(사이클·일회성·구조적 감소)이다. 저PER은 종종 시장이 이미 아는 위험의 반영이다.
 - 고PER은 그 자체로 비판이 아니다. 높은 성장·ROE·낮은 위험으로 정당화되는지가 질문이다. Justified PER = payout / (r − g)로 정당 배수를 계산하고, 거꾸로 관측 PER에서 시장의 암묵 성장률을 역산한다.
-- PER = PBR / ROE 항등식은 Volume 1 전체(EPS·Forward EPS·PER·PBR·ROE)를 하나로 잇는 뼈대다.
-- PER은 결론이 아니라 통로다. Chapter 4에서 Forward PER·Target PER로, Target Price = Target PER × Forward EPS로 결합된다.
+- PER = PBR / ROE 항등식은 Session01 전체(EPS·Forward EPS·PER·PBR·ROE)를 하나로 잇는 뼈대다.
+- PER은 결론이 아니라 통로다. 04에서 Forward PER·Target PER로, Target Price = Target PER × Forward EPS로 결합된다.
 
-다음 Chapter 4에서는 Forward PER의 실무 사용, Target PER 산정 방법론(Historical/Peer/Justified), PER Band와 민감도표, 그리고 Target Price 산정을 다룬다.
+다음 04(Forward PER·Target PER)에서는 Forward PER의 실무 사용, Target PER 산정 방법론(Historical/Peer/Justified), PER Band와 민감도표, 그리고 Target Price 산정을 다룬다.
 
 ---
 
@@ -436,4 +436,4 @@ PER로 밸류에이션 판단을 내리기 전, 위에서 아래로 점검한다
 - FnGuide DataGuide, PER 산출 및 컨센서스
 
 ### 다음 챕터 예고
-Chapter 4. **Forward PER & Target PER** — Forward PER 실무, Target PER 산정(Historical/Peer/Justified), PER Band, 민감도표, Target Price = Target PER × Forward EPS.
+04. **Forward PER & Target PER** — Forward PER 실무, Target PER 산정(Historical/Peer/Justified), PER Band, 민감도표, Target Price = Target PER × Forward EPS.
