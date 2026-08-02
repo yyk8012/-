@@ -1,4 +1,4 @@
-# Chapter 1. PEG (Price/Earnings-to-Growth Ratio)
+# 01. PEG (Price/Earnings-to-Growth Ratio)
 
 > "PER은 '얼마나 비싼가'를 묻는다. PEG는 '그 비쌈이 성장으로 정당화되는가'를 묻는다. 그러나 PEG는 답이 아니라, 성장에 대한 질문을 압축한 지름길이다."
 

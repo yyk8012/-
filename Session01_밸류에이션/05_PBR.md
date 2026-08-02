@@ -1,4 +1,4 @@
-# Chapter 5. PBR (Price-to-Book Ratio, 주가순자산비율)
+# 05. PBR (Price-to-Book Ratio, 주가순자산비율)
 
 > "PER이 '이 회사가 버는 돈'에 값을 매긴다면, PBR은 '이 회사가 쌓아둔 것'에 값을 매긴다. 그런데 시장은 쌓아둔 것보다 그것이 벌어들이는 수익률(ROE)에 값을 매긴다."
 

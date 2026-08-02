@@ -1,4 +1,4 @@
-# Chapter 4. Forward PER & Target PER (선행 PER과 목표 PER)
+# 04. Forward PER & Target PER (선행 PER과 목표 PER)
 
 > "밸류에이션의 최종 산출물은 결국 한 줄이다. Target Price = Target PER × Forward EPS. 이 장은 그 한 줄을 정직하게 쓰는 법을 다룬다."
 

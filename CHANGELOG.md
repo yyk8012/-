@@ -1,26 +1,18 @@
 # Changelog
 
-본 문서는 IEAMC 교재의 실질적 원고 변경 이력을 기록한다. 원칙: 실제 커밋된 원고에 대해서만 항목을 추가한다.
+본 문서는 `stock`(주식 분석 노트) 교재의 실질적 원고 변경 이력을 기록한다. 원칙: 실제 커밋된 원고에 대해서만 항목을 추가한다.
 
 ## [Unreleased]
 
+### Changed
+- 구조 개편: **Volume → Session 2단 구조**로 재배치. `Volume1~3` → `Session01~03`, 챕터 파일의 `Chapter` 접두어 제거(`01_...` 형식). 저장소 명칭을 `stock`으로 정리.
+- 공통 구조 규칙 문서 `STRUCTURE.md` 추가 (모든 저장소 공통 2단 표준).
+
 ### Added
-- Repository 스켈레톤 (README, CHANGELOG, Volume1–5 폴더, Figures/References/Build)
-- Volume 1 목차 확정 (Ch.1–Ch.7)
-- Vol.1 Ch.1 "EPS" 초고 (9개 절 전체)
-- Vol.1 Ch.2 "Forward EPS" 초고 (9개 절 전체)
-- Vol.1 Ch.3 "PER" 초고 (9개 절 전체)
-- Vol.1 Ch.4 "Forward PER & Target PER" 초고 (9개 절 전체)
-- Vol.1 Ch.5 "PBR" 초고 (9개 절 전체)
-- Vol.1 Ch.6 "ROE" 초고 (9개 절 전체)
-- Vol.1 Ch.7 "DuPont Analysis" 초고 (9개 절 전체) — Volume 1 전 챕터 초고 완결
-- Volume 2 목차 확정 (PEG / EV·EBITDA / DCF / Target Price)
-- Vol.2 Ch.1 "PEG" 초고 (9개 절 전체)
-- Vol.2 Ch.2 "EV/EBITDA" 초고 (9개 절 전체)
-- Vol.2 Ch.3 "DCF" 초고 (9개 절 전체)
-- Vol.2 Ch.4 "Target Price 종합" 초고 (9개 절 전체) — Volume 2 전 챕터 초고 완결
-- Volume 3 목차 확정 (ETF·패시브 / 패시브 vs 액티브 / 외국인 / 수급)
-- Vol.3 Ch.1 "ETF와 패시브 투자의 구조" 초고 (9개 절 전체)
-- Vol.3 Ch.2 "패시브 vs 액티브" 초고 (9개 절 전체)
-- Vol.3 Ch.3 "외국인 투자자와 글로벌 자금" 초고 (9개 절 전체)
-- Vol.3 Ch.4 "수급 분석" 초고 (9개 절 전체) — Volume 3 전 챕터 초고 완결
+- Repository 스켈레톤 (README, CHANGELOG, Session01–03)
+- Session01 "밸류에이션" — 7개 파일 초고 (9개 절 전체)
+  - 01_EPS / 02_ForwardEPS / 03_PER / 04_ForwardPER_TargetPER / 05_PBR / 06_ROE / 07_DuPont
+- Session02 "밸류에이션 심화" — 4개 파일 초고 (9개 절 전체)
+  - 01_PEG / 02_EV_EBITDA / 03_DCF / 04_TargetPrice
+- Session03 "시장 구조" — 4개 파일 초고 (9개 절 전체)
+  - 01_ETF_Passive / 02_Passive_vs_Active / 03_Foreign_Flows / 04_SupplyDemand

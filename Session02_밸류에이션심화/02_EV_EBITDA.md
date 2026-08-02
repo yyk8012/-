@@ -1,4 +1,4 @@
-# Chapter 2. EV/EBITDA (기업가치/EBITDA 배수)
+# 02. EV/EBITDA (기업가치/EBITDA 배수)
 
 > "PER은 주주만 본다. EV/EBITDA는 주주와 채권자 모두를 본다. 부채가 다른 회사들을 같은 선상에서 비교하려면, 주가가 아니라 기업 전체의 값을 봐야 한다."
 

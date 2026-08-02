@@ -1,4 +1,4 @@
-# Chapter 1. EPS (Earnings Per Share)
+# 01. EPS (Earnings Per Share)
 
 > "PER이 밸류에이션의 얼굴이라면, EPS는 그 얼굴이 매일 바뀌는 이유다."
 

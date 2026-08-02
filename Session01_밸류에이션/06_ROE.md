@@ -1,4 +1,4 @@
-# Chapter 6. ROE (Return on Equity, 자기자본이익률)
+# 06. ROE (Return on Equity, 자기자본이익률)
 
 > "PER과 PBR은 시장이 매기는 가격이었다. ROE는 그 가격의 근거다. 밸류에이션의 모든 배수는 결국 ROE가 자본비용을 얼마나, 얼마나 오래 초과하느냐로 수렴한다."
 

@@ -1,4 +1,4 @@
-# Chapter 7. DuPont Analysis (듀폰 분석)
+# 07. DuPont Analysis (듀폰 분석)
 
 > "ROE 15%는 답이 아니라 봉투다. DuPont은 그 봉투를 열어 안에 든 것이 경쟁력인지, 부채인지, 착시인지를 꺼내 보인다."
 

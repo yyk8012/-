@@ -1,4 +1,4 @@
-# Chapter 3. DCF (Discounted Cash Flow, 현금흐름할인법)
+# 03. DCF (Discounted Cash Flow, 현금흐름할인법)
 
 > "배수는 남과 비교해 값을 매긴다. DCF는 회사 그 자체에 값을 매긴다. 배수가 '시장이 얼마를 준다'라면, DCF는 '이 회사가 얼마의 가치가 있다'이다. 그러나 DCF의 정직함은 가정의 정직함을 넘지 못한다."
 

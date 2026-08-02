@@ -1,4 +1,4 @@
-# Chapter 3. PER (Price-to-Earnings Ratio, 주가수익비율)
+# 03. PER (Price-to-Earnings Ratio, 주가수익비율)
 
 > "PER은 답이 아니라 질문이다. '왜 이 회사는 이 배수에 거래되는가'라는 질문."
 

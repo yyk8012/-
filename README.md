@@ -1,21 +1,35 @@
-# Institutional Equity Analysis Master Course (IEAMC)
+# stock — 주식 분석 노트
 
 기관투자자 수준의 주식 분석 교재.
 
 ## 목표
 단순 개념 설명이 아니라, 셀사이드·바이사이드 애널리스트가 실제로 사용하는 프레임과 사고체계를 원고 형태로 정리한다. 최종 목표 분량은 200–500페이지 이상.
 
-## Volume 구성
+## 구조 원칙 (2단)
+폴더 계층은 **2단까지만** 둔다. 자세한 규칙은 [`STRUCTURE.md`](STRUCTURE.md) 참고.
 
-| Volume | 주제 | 핵심 챕터 |
+```
+stock/                    ← repo (대분류)
+├─ SessionNN_주제/         ← 중분류 (하나의 학습 세션)
+│   ├─ 01_....md          ← 콘텐츠 파일 (더 이상 폴더로 나누지 않음)
+│   └─ ...
+```
+
+- **repo = 대분류(category)** : 이 저장소(`stock`)가 곧 하나의 과목이다.
+- **Session = 중분류** : 한 덩어리로 학습·집필하는 단위. 폴더로 표현한다.
+- **콘텐츠 파일** : 세션 폴더 안의 `.md`. 계층을 더 늘리지 않는다.
+
+## Session 구성
+
+| Session | 주제 | 핵심 파일 |
 | --- | --- | --- |
-| Vol.1 | Valuation & Earnings | EPS / Forward EPS / PER / Forward PER / PBR / ROE / DuPont |
-| Vol.2 | Valuation (심화) | PEG / EV/EBITDA / DCF / Target Price |
-| Vol.3 | Market Structure | ETF / Passive / Active / 외국인 / 수급 |
-| Vol.4 | Macro | 금리 / 환율 / 경기 / 유동성 |
-| Vol.5 | Case Study | 삼성전자 / SK하이닉스 / NVIDIA / TSMC 등 |
+| Session01 | 밸류에이션 (Valuation & Earnings) | EPS / Forward EPS / PER / Forward PER / PBR / ROE / DuPont |
+| Session02 | 밸류에이션 심화 | PEG / EV·EBITDA / DCF / Target Price |
+| Session03 | 시장 구조 (Market Structure) | ETF·패시브 / 패시브 vs 액티브 / 외국인 / 수급 |
+| Session04 | 매크로 (예정) | 금리 / 환율 / 경기 / 유동성 |
+| Session05 | 케이스 스터디 (예정) | 삼성전자 / SK하이닉스 / NVIDIA / TSMC 등 |
 
-## Chapter 구성 (공통)
+## 콘텐츠 파일 구성 (공통 9절)
 1. 개념
 2. 회계 연결
 3. 시장 메커니즘
@@ -28,42 +42,14 @@
 
 ## 원칙
 - Markdown이 Source of Truth. PDF/DOCX는 파생물.
-- Chapter 단위 집필, 완성된 원고만 커밋한다.
+- 파일 단위 집필, 완성된 원고만 커밋한다.
 - 미완성분을 완료로 표기하지 않는다.
 - 참고 기준: IFRS, CFA Institute Curriculum, KRX, FnGuide, 기업 공시, 공개 가능한 컨센서스 자료.
 
-## 폴더 구조
-```
-IEAMC/
-├─ README.md          이 파일
-├─ CHANGELOG.md       변경 이력
-├─ Volume1/           집필 원고
-├─ Volume2/
-├─ Volume3/
-├─ Volume4/
-├─ Volume5/
-├─ Figures/           도표·차트 원본
-├─ References/        참고자료 인덱스
-└─ Build/             생성된 PDF/DOCX
-```
-
 ## 진행 상태
 - [x] Repo 스켈레톤
-- [x] Volume 1 목차 확정
-- [x] Vol.1 Ch.1 EPS 초고
-- [x] Vol.1 Ch.2 Forward EPS 초고
-- [x] Vol.1 Ch.3 PER 초고
-- [x] Vol.1 Ch.4 Forward PER & Target PER 초고
-- [x] Vol.1 Ch.5 PBR 초고
-- [x] Vol.1 Ch.6 ROE 초고
-- [x] Vol.1 Ch.7 DuPont 초고
-- [x] Vol.2 목차 확정
-- [x] Vol.2 Ch.1 PEG 초고
-- [x] Vol.2 Ch.2 EV/EBITDA 초고
-- [x] Vol.2 Ch.3 DCF 초고
-- [x] Vol.2 Ch.4 Target Price 종합 초고
-- [x] Vol.3 목차 확정
-- [x] Vol.3 Ch.1 ETF와 패시브 투자 초고
-- [x] Vol.3 Ch.2 패시브 vs 액티브 초고
-- [x] Vol.3 Ch.3 외국인 투자자와 글로벌 자금 초고
-- [x] Vol.3 Ch.4 수급 분석 초고
+- [x] Session01 밸류에이션 — 7개 파일 초고 (EPS / Forward EPS / PER / Forward PER & Target PER / PBR / ROE / DuPont)
+- [x] Session02 밸류에이션 심화 — 4개 파일 초고 (PEG / EV·EBITDA / DCF / Target Price)
+- [x] Session03 시장 구조 — 4개 파일 초고 (ETF·패시브 / 패시브 vs 액티브 / 외국인 / 수급)
+- [ ] Session04 매크로
+- [ ] Session05 케이스 스터디
